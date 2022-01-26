@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<!-- <body>
+    <h1>JavaScript Variables</h1>
+<p id="tambah"></p>
+<p id="kali"></p>
+<p id="kurang"></p>
+<p id="bagi"></p>
+
+<script>
+var x = 5;
+var y = 6;
+var t = x + y;
+var k = x * y;
+var ku = x - y;
+var b = x / y;
+document.getElementById("tambah").innerHTML =
+"hasil 5 + 6 = " + t;
+document.getElementById("kali").innerHTML =
+"hasil 5 * 6 = " + k;
+document.getElementById("kurang").innerHTML =
+"hasil 5 - 6 = " + ku;
+document.getElementById("bagi").innerHTML =
+"hasil 5 / 6 = " + b;
+</script>
+
+</body> -->
+
+
+<!-- <body>
+<p id="demo"></p>
+<script>
+    const person = {
+        fname: "Secondta",
+        cname: "Ardiansyah",
+        lname: "Wicaksono",
+    };
+    let txt = "";
+    for (let x in person) {
+        txt += person[x] + " ";
+    }
+    document.getElementById("demo").innerHTML = txt;
+</script>
+</body> -->
+
+<!-- <body>
+
+    <h2>JavaScript Arrays</h2>
+
+    <ol>
+        <li id="1"></li>
+        <li id="2"></li>
+        <li id="3"></li>
+        <li id="4"></li>
+        <li id="5"></li>
+        <li id="6"></li>
+        <li id="7"></li>
+        <li id="8"></li>
+        <li id="9"></li>
+        <li id="10"></li>
+    </ol>
+
+    <script>
+        const com = ["CPU", "Processor", "VGA", "Mouse", "Keyboard", "Cassing", "Motherboard", "Ram", "Power Supply", "Sound Car"];
+        document.getElementById("1").innerHTML = cars[0];
+        document.getElementById("2").innerHTML = cars[1];
+        document.getElementById("3").innerHTML = cars[2];
+        document.getElementById("4").innerHTML = cars[3];
+        document.getElementById("5").innerHTML = cars[4];
+        document.getElementById("6").innerHTML = cars[5];
+        document.getElementById("7").innerHTML = cars[6];
+        document.getElementById("8").innerHTML = cars[7];
+        document.getElementById("9").innerHTML = cars[8];
+        document.getElementById("10").innerHTML = cars[9];
+    </script>
+
+</body> -->
+
+<body>
+
+    <h2>JavaScript Arrays</h2>
+
+    <p>Array.forEach() calls a function for each array element.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        const fruits = ["CPU", "Processor", "VGA", "Mouse", "Keyboard", "Cassing", "Motherboard", "Ram", "Power Supply", "Sound Car"];
+
+        let text = "<ol>";
+        fruits.forEach(myFunction);
+        text += "</ol>";
+        document.getElementById("demo").innerHTML = text;
+
+        function myFunction(value) {
+            text += "<li>" + value + "</li>";
+        } 
+    </script>
+
+</body>
+
+</html>
